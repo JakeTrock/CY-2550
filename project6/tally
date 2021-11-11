@@ -1,0 +1,14 @@
+/ drwxr-xr-x  2 root root  4096 Sep 19  2020 sys
+/home drwxrwxrwx  3 bob   bob   4096 Oct  6  2020 bob
+/dev crw-rw-rw-  1 root root 5, 1 Oct  6  2020 console
+/dev crw-rw-rw-  1 root root 5, 2 Oct  6  2020 ptmx
+/dev drwxr-xr-x  2 root root 4096 Oct  6  2020 shm
+/dev crw-rw-rw-  1 root root 5, 0 Oct  6  2020 tty
+/var/ drwxrw-rw-  3 root root  4096 Oct  6  2020 log
+/user/sbin -rwxrwxrwx  1 root root    34518 Sep 15  2018 adduser
+
+
+==termination pt: /usr/sbin/fdisk
+
+
+ls -p | grep -v / | tr '\n' ','
