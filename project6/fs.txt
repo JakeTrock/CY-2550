@@ -1,8 +1,8 @@
 chmod 755 /home/bob
 chmod 555 /sys/
-chmod 620 /dev/console
-chmod 1777 /dev/shm
 chmod 775 /var/log
-chmod 755 /user/sbin/adduser
-chown root:tty /dev/ptmx
-chown root:tty /dev/tty
+chmod 755 /bin/bash
+chmod 755 /bin/chage
+chmod 755 /bin/expiry
+chmod 755 /bin/passwd
+chmod 755 /bin/sha1sum

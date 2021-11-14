@@ -1,14 +1,11 @@
-/ drwxr-xr-x  2 root root  4096 Sep 19  2020 sys
-/home drwxrwxrwx  3 bob   bob   4096 Oct  6  2020 bob
-/dev crw-rw-rw-  1 root root 5, 1 Oct  6  2020 console
-/dev crw-rw-rw-  1 root root 5, 2 Oct  6  2020 ptmx
-/dev drwxr-xr-x  2 root root 4096 Oct  6  2020 shm
-/dev crw-rw-rw-  1 root root 5, 0 Oct  6  2020 tty
-/var/ drwxrw-rw-  3 root root  4096 Oct  6  2020 log
-/user/sbin -rwxrwxrwx  1 root root    34518 Sep 15  2018 adduser
+/bin=====================================
+Reg = -rwxr-xr-x1rootroot1183448Jun182020bash    Wrong = -rwxrwxrwx1rootroot1168776Apr182019bash
+Reg = -rwxr-sr-x1rootshadow84512Jul1418:08chage    Wrong = -rwxr-sr-x1root4271816Jul272018chage
+Reg = -rwxr-sr-x1rootshadow31312Jul1418:08expiry    Wrong = -rwxr-sr-x1root4231000Jul272018expiry
+Reg = -rwxr-xr-x1rootroot142144Sep52019ls    Wrong = -rwxrwxrwx1rootroot138856Feb282019ls
+Reg = -rwsr-xr-x1rootroot68208Jul1418:08passwd    Wrong = -rwsrwxrwx1rootroot63736Jul272018passwd
+Reg = -rwxr-xr-x1rootroot51576Sep52019sha1sum    Wrong = -rwxrwxrwx1rootroot51936Feb282019sha1sum
+Not Found Lines in TestieVersion.txt:
+-rwxr-xr-x2rootroot3201864Jul212020perl5281
 
-
-==termination pt: /usr/sbin/fdisk
-
-
-ls -p | grep -v / | tr '\n' ','
+usr/lib/x86_64-linux-gnu=======================

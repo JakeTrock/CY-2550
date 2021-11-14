@@ -1,0 +1,21 @@
+  GNU nano 4.8                      /etc/apparmor.d/home.tux.p2                                
+# Last Modified: Thu Nov 11 11:41:39 2021
+#include <tunables/global>
+
+/home/tux/p2 {
+  #include <abstractions/base>
+
+  /home/tux/p2 mr,
+  /tmp/project* wr,
+  /home/tux/.project2/config wr,
+  /var/log/syslog r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /etc/hostid r,
+  /etc/passwd r,
+  /etc/hosts r,
+  /home/tux/template r,
+
+  network tcp,
+}
+
