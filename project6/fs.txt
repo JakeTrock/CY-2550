@@ -3,3 +3,8 @@ chmod 555 /sys/
 chmod 775 /var/log
 chmod 755 /bin/bash
 chmod 755 /bin/sha1sum
+chown root:shadow /etc/shadow
+chown root:shadow /etc/shadow-
+chown root:shadow /etc/gshadow
+chown root:shadow /etc/gshadow-
+chmod 664 /etc/fstab
