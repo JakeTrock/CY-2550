@@ -1,9 +1,3 @@
-chmod 644 /run
-chmod 755 /tmp
-chmod 644 /etc/systemd
-chmod 755 /usr/lib/udev
-chmod 755 /usr/bin/test
-chmod 444 /usr/bin/stat
 chmod 755 /home/bob
 chmod 555 /sys/
 chmod 775 /var/log
