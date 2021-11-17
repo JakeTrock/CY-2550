@@ -9,7 +9,7 @@ with open("normalVersion.txt") as file_in:
         # removes extra white space and splits string based on spaces
         array = " ".join(string.split()).split(" ")
      #   print(array)
-        if len(array) > 5:
+        if len(array) > 5 and (array[5]!="." and array[5]!=".."):
             normalLines.append(array)
 
 with open("TestieVersion.txt") as file_in2:
@@ -26,7 +26,7 @@ found = False
 notFound = []
 for testLine in testieLines:
     for normalLine in normalLines:
-        if normalLine[8] == testLine[8]:
+        if len(normalLine) > 8 and len(testLine) > 8 and normalLine[8] == testLine[8]:
             found = True
             if normalLine[0] != testLine[0] or normalLine[2] != testLine[2] or normalLine[3] != testLine[3]:
                 normalLineString = "".join(str(e) for e in normalLine)
