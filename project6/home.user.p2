@@ -1,1 +1,19 @@
- 
+#include <tunables/global>
+/home/tux/p2 {
+  #include <abstractions/base>
+  /home/tux/p2 mr,
+  /tmp/project* wr,
+  /home/tux/.project2/config wr,
+  /var/log/syslog r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /etc/hostid r,
+  /etc/passwd r,
+  /etc/hosts r,
+  /home/tux/template r,
+  /proc/filesystems r,
+  /proc/cpuinfo r,
+  deny /proc/stat r,
+  deny /proc/meminfo r,
+  network tcp,
+}
