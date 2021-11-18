@@ -1,9 +1,8 @@
 chmod 755 /home/bob
 chmod 555 /sys/
 chmod 775 /var/log
-chmod 755 /bin/bash
 chmod 755 /bin/sha1sum
+chmod 755 /bin/bash
+chmod 4755 /bin/passwd
+chmod 755 /bin/ls
 chmod 755 /usr/sbin/adduser
-chmod 755 /usr/bin/bash
-chmod 755 /usr/bin/ls
-chmod 4755 /usr/bin/passwd
