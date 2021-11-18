@@ -6,4 +6,4 @@ chmod 755 /bin/sha1sum
 chmod 755 /usr/sbin/adduser
 chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
-chmod -rwsr-xr-x /usr/bin/passwd
+chmod 755 /lib/x86_64-linux-gnu/security
