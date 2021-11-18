@@ -7,6 +7,6 @@ chmod 4755 /bin/passwd
 chmod 755 /bin/ls
 chmod 755 /usr/sbin/adduser
 chmod 664 /var/log/lastlog
-chmod 700 /var/run/initramfs
-chmod 710 /var/run/openvpn-client 
-chmod 710 /var/run/openvpn-server
+chmod 700 /run/initramfs
+chmod 710 /run/openvpn-client 
+chmod 710 /run/openvpn-server
