@@ -6,4 +6,5 @@ chmod 755 /bin/sha1sum
 chmod 755 /usr/sbin/adduser
 chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
-chmod 664 /etc/fstab
+
+chmod 4755 /usr/bin/passwd
